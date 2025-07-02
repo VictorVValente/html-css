@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+        main{
+            font-family: "UnifrakturMaguntia", sans-serif;
+            font-style: normal; 
+            font-weight: 400;
+        }
+        body{
+            background-image: linear-gradient(to bottom, rgb(135, 135, 202), rgb(186, 186, 240));
+        }
+        main{
+            background-color: white;
+            margin: 2px 15%;
+            border-radius: 10px;
+            width: auto;
+            padding: 10px;
+            box-shadow: 4px 4px 6px rgb(103, 103, 145) ;
+        }
+        h1{
+            padding: 15px 0px 0px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-indent: 15px;
+        }

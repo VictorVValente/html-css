@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid; color: blue;
+}
+h1{
+    color: blue;
+}

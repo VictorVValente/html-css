@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <hr>
+    <h2>Imagens que se adaptam</h2>
+    <p>Para colocar imagens crie a tag <mark>PICTURE</mark> dentro dela coloque a <mark>IMG</mark> e acima da <mark>IMG</mark> colocar a tag <mark>SOURCE MEDIA.</mark> Ficar atento com a ordem que vai colocar as sources pois é muito importante a ordem certa para funcionar.</p>
+    <p>Aumente e diminua a aba ou teste em outro aparelho para ver a imagem mudando:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <p><a href="../index.html" rel="prev" target="_self">Voltar à página.</a></p>
+    
+</body>
+</html>

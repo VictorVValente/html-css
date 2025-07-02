@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apostila</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Módulo 1</h1>
+    <hr>
+    <h2>Aula 1</h2>
+    <h3><ins>Básico sobre colocar texto.</ins></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat officiis quis. Suscipit, delectus in rem distinctio saepe placeat veniam odit reiciendis recusandae optio totam perferendis temporibus, modi quo molestiae?</p>
+    <hr>
+    <h2>Aula2</h2>
+    <h3><ins>Recapitulação Emojis</ins></h3>
+    <p>Para colocar simbolos se coloca & antes de colocar a palavra chave do simbolo e finaliza com ponto e virgula. Exemplo:<br>
+    &(pound). Que ficaria da seguinte forma:</p>
+    <p>&pound;</p>
+    <p>Outro exemplo seria a seta para cima que seria & + uarr + ;<br>
+    Que ficaria assim:</p>
+    <p>&uarr;</p>
+    <p>Para colocar emoji se faz a combinação de & + # + x + o código do emoji<br>
+    Exemplo:</p>
+    <p>&#x1F928;</p>
+    <hr>
+    <h2>Imagens</h2>
+    <p>Para colocar imagens basta colocar as imagens desejadas na pasta html, depois colocar a tag img + ctrl+space + selecionar as imagens desejadas. Exemplo:</p>
+    <img src="icone html.png" alt="Icone HTML">
+    <hr>
+    <h2>Negrito e Italico</h2>
+    <p>Para colocar textos em negirto usar a tag <strong>STRONG</strong>. <br>
+    Para colocar textos em <em>itálico</em> usar a tag EM </p>
+    <hr>
+    <h2>Marcação</h2>
+    <p>Para deixar textos marcados usar a tag <mark>MARK</mark></p>
+    <h3><ins>Textos "Deletados" e "Inseridos (sublinhados)"</ins></h3>
+    <p>Para deixar textos com um risco igual a <del>DELETADO</del> basta usar a tag <del>DEL</del>.<br>
+    Já para deixar textos <ins>INSERIDOS</ins> ou <ins>SUBLINHADOS</ins> basta usar a tag <ins>INS</ins></p>
+    <hr>
+    <h2>Textos Grandes e Pequenos</h2>
+    <h3><ins>Textos Grandes</ins></h3>
+    <p>Para deixar textos,frases e palavras em especifico um pouco <big>maiores</big>, é possivel utilizando a tag <big>BIG</big> porém atualmente esta é um tag obsoleta e não deve mais ser utilizada, mesmo que ainda funcione. O certo agora é estar alterando esse detalhe diretamente em CSS</p>
+    <h3><ins>Textos Pequenos</ins></h3>
+    <p>Para deixar textos,frases ou palavras <small>menores</small> basta utilizar a tag <small>SMALL</small>, esta ainda é uma tag que pode ser utilizada</p>
+    <hr>
+    <h2>Textos Sobrescritos e Subscritos</h2>
+    <h3><ins>Textos Sobrescritos</ins></h3>
+    <p>Para colocar textos sobrescritos basta usar a tag SUP por exemplo: x<sup>3</sup>+5</p>
+    <h3><ins>Textos Subescritos</ins></h3>
+    <p>Para colocar textos subscritos usar a tag SUB exemplo: H<sub>2</sub>O</p>
+    <hr>
+    <h2>Citações Simples e Completas</h2>
+<h3><ins>Citações simples</ins></h3>
+<p>Para fazer algumas citações simples usar a tag Q, por exemplo: <q>A vingança nunca é plena, mata a alma e a envenena</q></p>
+<h3><ins>Citações Completas</ins></h3>
+<p>para fazer citações mais completas usas-se a tag <strong>
+    <mark>BLOCKQUOTE</mark>
+</strong> e para linkar basta adicionar <strong><mark>CITE</mark></strong> ao lado</p>
+<blockquote cite="https://www.pensador.com/frases_motivacionais/">É importante agradecer pelo hoje sem nunca desistir do amanhã!</blockquote>
+<hr>
+<h2>Abreviações</h2>
+<h3><ins>Como Adicionar Abreviações</ins></h3>
+<p>A tag <mark>ABBR</mark> é usada para adicionar significado as abreviações por exemplo <abbr title="HyperText Markup Language">HTML</abbr></p>
+<hr>
+<h2>Códigos</h2>
+<h3><ins>Como Colocar Exemplos de Códigos</ins></h3>
+<p>Para adicionar alguns exemplos de códigos pode se usar a tag <mark>CODE</mark> que vai adicionar o código na mesma linha e enquadramento, pórem para deixar com mais detalhes pode-se adicionar a tag <mark>PRE</mark>
+antes de code. Vai ficar da seguinte maneira:</p>
+<pre>
+    <code>
+        num = int(input('digite um número'))
+        if num % 2 == 0:
+            print(f'0 número {num} é par')
+        else:
+            print(f'0 número {num} é ímpar')
+        print('FIM DO PROGRAMA')
+    </code>
+</pre>
+<hr>
+    <h2>Como Ancorar Links Externos</h2>
+    <p>Para ancorar links se usa a tag <mark>A</mark> e depois só adicionar o link <a href="https://www.youtube.com/watch?v=k85mRPqvMbE&ab_channel=CrazyFrog" target="_blank" rel="EXTERNAL">por exemplo</a> e para abrir em outra aba usar <mark>TARGET BLANK REL EXTERNAL</mark></p>
+    <hr>
+    <h2>Links Internos</h2>
+    <h3><ins>Vamos praticar</ins></h3>
+    <p>Basicamente também usa a mesma tag para links externos, porém criamos outra aba e ao invés de linkar o video em especifico, linkamos outra aba que vai conter o video. Também é necessário lembrar de colocar <mark>REL NEXT</mark> e <mark>TARGET SELF</mark> para sinalizar que vai ir para a próxima página. Já no caso de linkar para voltar para a página anterior usar <mark>REL PREV</mark>. Agora acesse a próxima pagina para ter acesso ao vídeo sobre a aula de hoje</p>
+    <p><a href="videos/pag002.html" rel="next" target="_self">Próxima Página</a></p>
+    <h3><ins>Página de Piadas</ins></h3>
+    <p>Se quiser acessar a página de piadas <a href="Piadas/piadas.html" rel="next" target="_self">clique aqui</a>.</p>
+    <hr>
+    <h2>Links Para Download</h2>
+    <p>Segue a baixo os links para downloads do material da aula 10.</p>
+            <a href ="Livro/10 - Ligações em toda parte.pdf" rel="next" target="_blank" download="Ligações em toda parte.pdf" type="application/pdf">Aula 10 em PDF</a> <br>
+            <!--Em alguns navegadores não vai puxar o download automatico do pdf, nesses casos é necessario a tag download e depois o type-->
+            <a href="Livro/10 - Ligações em toda parte.zip" download="Ligações em toda parte.zip" type="application/zip">Aula 10 Compactada</a>
+        <p>No link em PDF usei <mark>TARGET BLANK</mark> para abrir o arquivo em outra aba.</p>
+    <hr>
+    <h2>Aula 10</h2>
+    <p>Clique em continuar para seguir até a próxima página e ver as imagens dinâmicas</p>
+    <a href="imagens-dinamicas/pag003.html" rel="next" target="_self">CONTINUAR</a>
+    <hr>
+    <h2>Audios</h2>
+    <p>Como reproduzir audios</p>
+    <audio src="audios/Reasons - Anno Domini Beats.mp3" controls autoplay loop></audio>
+    <p>Basicamente para colocar o audio acima usei a tag <mark>AUDIO</mark></p>
+    <!-- MP3 WAV OGG-->
+     <p>Outra maneira de colocar audio que é a mais recomenda e usando a tag <mark>AUDIO</mark> + <mark>SOURCE SRC</mark>.</p>
+    <p>Também se usa a tag <mark>CONTROL</mark> para adicionar os controles de audio e também e interessante colocar <mark>PRELOAD=METADATA</mark> para que o site não fique tão pesado. <br>
+Se quiser que o audio fiquem tocando sem parar basta colocar <mark>LOOP</mark></p>
+     <audio preload="metadata" controls loop >
+        <source src="audios/Reasons - Anno Domini Beats.mp3" type="audio/mpeg">
+     </audio>
+     <!--Esse método que utilizei acima é o melhor.-->
+     <hr>
+     <h1>Fim do Módulo 1.</h1>
+</body>
+</html>

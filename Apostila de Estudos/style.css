@@ -1,0 +1,24 @@
+mark{
+    background-color: lime
+}
+
+body{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, #85C7F2, #3E885B);
+    }
+
+    iframe{
+    border: 2px solid; color: black;
+    }
+
+    h1{
+        color: #150578;
+    }
+
+    h2{
+        color: black;
+    }
+
+    
+    

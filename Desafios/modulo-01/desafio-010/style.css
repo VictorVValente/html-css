@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to right, #BEDCFE, #3E885B);
+    text-align: center;
+}
+
+iframe{
+    border: 2px solid; color: black;
+}
