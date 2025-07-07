@@ -83,6 +83,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 1vw;
 }
 footer a{
     text-decoration: none;
