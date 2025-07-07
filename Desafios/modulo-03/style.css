@@ -8,21 +8,22 @@
     --font-h1:"Passion One", sans-serif;
     --font-milton: verdana, sans-serif:
 }
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-
+html, body{
+    height: 100vh;
+}
+/*------------------------------header---------------------------------*/
 header{
-    height: 200px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.959);
     color: white;
-    padding: 15px 15px 1px;
+    padding: 15px 15px 10px;
 }
-
 header p{
     font-family: var(--font-milton);
     font-weight: normal;
@@ -32,41 +33,63 @@ header a{
     color: white;
     font-weight: bold;
 }
-
 header a:hover{
     text-decoration: underline;
 }
-
 header h1{
     font-family: var(--font-h1);
     font-weight: bold;
-    font-size: 6em;
+    font-size: 7vw;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-div.texto{
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    text-align: left;
-    line-height: 3.5em;
-    border: 3px solid black;
-}
-
-div p{
+/*------------------------------header---------------------------------*/
+/*------------------------------main---------------------------------*/
+main p{
+    margin: 20px;
+    width: 40%;
+    padding: 35px;
     font-family: var(--font-padrao);
-    font-size: 2em;
-    padding: 30px;
-}
+    font-size: 2vw;
+    line-height: 2em;
 
-div#transparente{
-    /*background: transparent url(imagens/background001.jpg) left center no-repeat fixed;*/
-    background-color: transparent;
-    background-image: url(imagens/background001.jpg);
-    background-position: left center;
+}
+div.img{
+    padding: 20px;
+    box-shadow: inset 6px 6px 20px 3px rgba(0, 0, 0, 0.541);
+}
+div.img p{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+}
+div#img1{
+    background:url("imagens/background001.jpg");
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vw;
 }
+div#img2{
+    background: url("imagens/background002.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*------------------------------main---------------------------------*/
+/*------------------------------footer---------------------------------*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+/*------------------------------footer---------------------------------*/
