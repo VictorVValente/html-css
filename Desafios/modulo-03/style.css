@@ -17,7 +17,7 @@
 html, body{
     height: 100vh;
 }
-/*------------------------------header---------------------------------*/
+/*------------------------------Header---------------------------------*/
 header{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.959);
@@ -28,12 +28,13 @@ header p{
     font-family: var(--font-milton);
     font-weight: normal;
 }
-header a{
+header a, footer a{  /*-----------------------------Valid----------------------------------------------------------------------------for----------------------------------------------------------------------------Header---------------------------------------------------------------------------and----------------------------------------------------------------------------Footer-------------------------------------------*/
+
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 header h1{
@@ -43,7 +44,7 @@ header h1{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-/*------------------------------header---------------------------------*/
+/*------------------------------End-Header---------------------------------*/
 /*------------------------------main---------------------------------*/
 main p{
     margin: 20px;
@@ -53,6 +54,10 @@ main p{
     font-size: 2vw;
     line-height: 2em;
 
+}
+div{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 div.img{
     padding: 20px;
@@ -84,13 +89,5 @@ footer{
     color: white;
     text-align: center;
     font-size: 1vw;
-}
-footer a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-footer a:hover{
-    text-decoration: underline;
 }
 /*------------------------------footer---------------------------------*/
