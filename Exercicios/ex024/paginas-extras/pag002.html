@@ -11,27 +11,44 @@
         }
         html, body{
             height: 100vh;
+            text-align: center;
+        }
+        h1{
+            padding: 15px;
+        }
+        table{
+            height: 350px;
+            width: 450px;
+            margin: auto;
         }
         caption{
             background-color: rgb(189, 189, 189);
+            font-size: 1.5em;
         }
- 
+        thead tr th{
+            padding: 8px;
+            font-size: 1.2em;
+        }
+        tr td,th{
+            border: 1px solid black;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>Pagina 2</h1>
+    <h1>Página 2</h1>
     <table>
         <caption>
             Tabela Teste
         </caption>
         <thead>
             <tr>
-                <th rowspan="3">Pagina Teste</th>
+                <th colspan="4">Página Teste</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th colspan="2">Exercicios</th>
+                <th rowspan="2">Exercicios</th>
                 <td>ex001</td>
                 <td>ex002</td>
                 <td>ex003</td>
@@ -42,7 +59,7 @@
                 <td>ex006</td>
             </tr>
             <tr>
-                <th colspan="2">Desafios</th>
+                <th rowspan="2">Desafios</th>
                 <td>desafio001</td>
                 <td>desafio002</td>
                 <td>desafio003</td>
